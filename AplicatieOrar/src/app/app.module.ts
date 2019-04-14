@@ -5,16 +5,27 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatMenuModule, MatButtonModule, MatIconModule, MatCardModule } from '@angular/material';
+import { MenuComponent } from './menu/menu.component';
+import { ContentComponent } from './content/content.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MenuComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    BrowserAnimationsModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

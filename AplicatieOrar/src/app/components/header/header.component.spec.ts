@@ -1,15 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-@Component({
-  selector: 'app-header',
-  template: `
-    <p>
-      header works!
-    </p>
-  `,
-  styles: []
-})
-export class HeaderComponent implements OnInit {
-  constructor() { }
-  ngOnInit() { }
-}
+import { HeaderComponent } from './header.component';
+
+describe('HeaderComponent', () => {
+  let component: HeaderComponent;
+  let fixture: ComponentFixture<HeaderComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ HeaderComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(HeaderComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

@@ -1,0 +1,54 @@
+.meniu{
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.Acasa {
+  background-color: transparent;
+  border-radius: 6px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ff5e00;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  margin: 20px 100px 20px 100px;
+}
+
+  .Acasa:hover {
+    background-color: transparent;
+  }
+
+  .Acasa:active {
+    position: relative;
+    top: 1px;
+  }
+
+.Orar {
+  background-color: transparent;
+  border-radius: 6px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ff5e00;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  margin: 20px 100px 20px 100px;
+}
+
+  .Orar:hover {
+    background-color: transparent;
+  }
+
+  .Orar:active {
+    position: relative;
+    top: 1px;
+  }

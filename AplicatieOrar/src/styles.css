@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+@media only screen and (min-width: 1001px){
+  body {
+    background-image: url("C:\Users\Gabriela\source\repos\AplicatieOrar\AplicatieOrar\Photos\network.jpg");
+    background-color: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-image: url("C:\Users\Gabriela\source\repos\AplicatieOrar\AplicatieOrar\Photos\network.jpg");
+    background-color: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
